@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  SwiftUiStudy
+//  Landmarks
 //
-//  Created by 김도완 on 10/6/23.
+//  Created by 김도완 on 10/8/23.
 //
 
 import SwiftUI
