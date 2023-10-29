@@ -26,7 +26,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     }
 
     private var imageName: String
-    var image: Image {
+    var image: Image{
         Image(imageName)
     }
 
@@ -45,3 +45,5 @@ struct Landmark: Hashable, Codable, Identifiable {
 
 
 }
+
+
