@@ -5,7 +5,7 @@
         "city": "Twentynine Palms",
         "state": "California",
         "id": 1001,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "Joshua Tree National Park",
         "coordinates": {
@@ -21,7 +21,7 @@
         "city": "Port Alsworth",
         "state": "Alaska",
         "id": 1002,
-        "isFeatured": false,
+        "isFeatured": true,
         "isFavorite": false,
         "park": "Lake Clark National Park and Preserve",
         "coordinates": {
