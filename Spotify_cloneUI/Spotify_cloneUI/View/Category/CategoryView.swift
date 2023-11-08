@@ -9,32 +9,47 @@ import SwiftUI
 
 struct CategoryView: View {
     @State private var searchText: String = ""
-
+//    init() {
+//        let appearance = UINavigationBarAppearance()
+//        appearance.configureWithTransparentBackground()
+//        appearance.backgroundColor = .black
+//        appearance.shadowColor = .black
+//        UINavigationBar.appearance().standardAppearance = appearance
+//     }
     var body: some View {
-        ScrollView{
-            LazyVStack(alignment: .leading, pinnedViews: .sectionHeaders){
-                HStack(alignment: .top){
-                    CircleImage(image: Image("profileImage")) // 라이브 이벤트
-                        .frame(width: 50)
-                        .padding(.horizontal)
-                    Text("검색")
-                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                        .fontWeight(.bold)
-                        .offset(x:-15 ,y:5)
-                }
-                Spacer(minLength: 10)
-                Section(
-                    header: TextField("검색어", text: $searchText)
+        
+        ZStack{
+            Color(hex: "#111211")
+                .ignoresSafeArea()
+            
+            ScrollView{
+                Spacer(minLength: 15)
+                LazyVStack(alignment: .leading, pinnedViews: .sectionHeaders){
+                    HStack(alignment: .top){
+                        CircleImage(image: Image("profileImage")) // 라이브 이벤트
+                            .frame(width: 35)
+                            .padding(.horizontal)
+                        Text("검색")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .offset(x:-17 ,y:5)
+                    }
+                    Section(
+                        header: TextField("어떤 것을 듣고 싶으세요?", text: $searchText)
+                            .foregroundColor(.black)
+                            .font(.callout)
+                            .padding(10)
+                            .background(Color(hex: "fefefe"))
+                            .cornerRadius(4)
+                            .padding(.horizontal)
+                            .toolbarBackground(.visible, for: .navigationBar, .tabBar)
+
                         
-                        .padding()
-                        .background(Color.indigo)
-                        .cornerRadius(12)
-                        .padding()
-                        .background(Color.white)
-                        
-                ){
-                    Spacer(minLength: 10)
-                    CategoryList(items: ModelData().category)
+                    ){
+                        Spacer()
+                        CategoryList(items: ModelData().category)
+                    }
+                    
                 }
                 
             }

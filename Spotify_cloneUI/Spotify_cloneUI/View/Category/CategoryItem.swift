@@ -15,9 +15,9 @@ struct CategoryItem: View {
         VStack(alignment: .leading) {
             Text(title)
                 .multilineTextAlignment(.leading)
-                .font(.headline)
+                .font(.callout)
                 .fontWeight(.bold)
-                .offset(x:-40, y: 22)
+                .offset(x:-35, y: 22)
             image
                 .resizable()
                 .scaledToFit()
@@ -28,7 +28,7 @@ struct CategoryItem: View {
                 .offset(x: 60, y: 0)
             
         }
-        .frame(width: 140, height: 60)
+        .frame(width: 135, height: 70)
         .padding()
         .background(color)
         .foregroundColor(.white)

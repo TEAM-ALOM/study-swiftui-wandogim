@@ -12,22 +12,23 @@ struct CategoryList: View {
     var body: some View {
         let columns = [GridItem(.flexible()), GridItem(.flexible())]
         VStack(alignment: .leading){
+            Spacer(minLength: 15)
             Text("모두 둘러보기")
-                .font(.callout)
+                .font(.footnote)
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .padding(.horizontal)
-            LazyVGrid(columns: columns) {
+            LazyVGrid(columns: columns, spacing: 20) {
                         ForEach(items, id: \.self) { item in
                             NavigationLink{
                                 //TODO:put Detail Link here
                             } label: {
                                 CategoryItem(image: item.image, color: item.color, title: item.title)
                             }
-                        
+
                     }
                     
                 }
-                    .padding()
+            .padding()
         }
         
     }

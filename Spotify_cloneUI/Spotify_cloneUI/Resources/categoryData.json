@@ -3,108 +3,96 @@
       "id" : 0,
       "title" : "팟캐스트",
       "imageName" : "sample",
-      "colorHexCode" : "#b6fcd5"
+      "colorHexCode" : "#036450"
     },
     {
       "id" : 1,
       "title" : "이벤트",
       "imageName" : "sample",
-      "colorHexCode" : "#468499"
+      "colorHexCode" : "#8400e8"
     },
     {
       "id" : 2,
       "title" : "나만의\n플레이리스트",
       "imageName" : "sample",
-      "colorHexCode" : "#afeeee"
+      "colorHexCode" : "#1f3363"
     },
     {
       "id" : 3,
       "title" : "최신 음악",
       "imageName" : "sample",
-      "colorHexCode" : "#7fffd4"
+      "colorHexCode" : "#e8105b"
     },
     {
       "id" : 4,
       "title" : "가요",
       "imageName" : "sample",
-      "colorHexCode" : "#393d76"
+      "colorHexCode" : "#2c47ba"
     },
     {
       "id" : 5,
       "title" : "팝",
       "imageName" : "sample",
-      "colorHexCode" : "#72231c"
+      "colorHexCode" : "#158a06"
     },
     {
       "id" : 6,
-      "title" : "팟캐스트",
+      "title" : "힙합",
       "imageName" : "sample",
-      "colorHexCode" : "#b6fcd5"
+      "colorHexCode" : "#4f374f"
     },
     {
       "id" : 7,
-      "title" : "이벤트",
+      "title" : "R&B",
       "imageName" : "sample",
-      "colorHexCode" : "#468499"
+      "colorHexCode" : "#b95d05"
     },
     {
       "id" : 8,
-      "title" : "나만의\n플레이리스트",
+      "title" : "팟캐스트",
       "imageName" : "sample",
-      "colorHexCode" : "#afeeee"
+      "colorHexCode" : "#036450"
     },
     {
       "id" : 9,
-      "title" : "최신 음악",
+      "title" : "이벤트",
       "imageName" : "sample",
-      "colorHexCode" : "#7fffd4"
+      "colorHexCode" : "#8400e8"
     },
     {
       "id" : 10,
-      "title" : "가요",
+      "title" : "나만의\n플레이리스트",
       "imageName" : "sample",
-      "colorHexCode" : "#393d76"
+      "colorHexCode" : "#1f3363"
     },
     {
       "id" : 11,
-      "title" : "팝",
+      "title" : "최신 음악",
       "imageName" : "sample",
-      "colorHexCode" : "#72231c"
+      "colorHexCode" : "#e8105b"
     },
     {
       "id" : 12,
-      "title" : "팟캐스트",
+      "title" : "가요",
       "imageName" : "sample",
-      "colorHexCode" : "#b6fcd5"
+      "colorHexCode" : "#2c47ba"
     },
     {
       "id" : 13,
-      "title" : "이벤트",
+      "title" : "팝",
       "imageName" : "sample",
-      "colorHexCode" : "#468499"
+      "colorHexCode" : "#158a06"
     },
     {
       "id" : 14,
-      "title" : "나만의\n플레이리스트",
+      "title" : "힙합",
       "imageName" : "sample",
-      "colorHexCode" : "#afeeee"
+      "colorHexCode" : "#4f374f"
     },
     {
       "id" : 15,
-      "title" : "최신 음악",
+      "title" : "R&B",
       "imageName" : "sample",
-      "colorHexCode" : "#7fffd4"
-    },
-    {
-      "id" : 16,
-      "title" : "가요",
-      "imageName" : "sample",
-      "colorHexCode" : "#393d76"
-    },
-    {
-      "id" : 17,
-      "title" : "팝",
-      "imageName" : "sample",
-      "colorHexCode" : "#72231c"
+      "colorHexCode" : "#b95d05"
     },
 ]
