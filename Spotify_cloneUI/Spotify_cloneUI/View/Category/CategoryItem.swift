@@ -26,7 +26,6 @@ struct CategoryItem: View {
                 .rotationEffect(Angle(degrees: 30))
                 .shadow(radius: 10)
                 .offset(x: 60, y: 0)
-            
         }
         .frame(width: 135, height: 70)
         .padding()
@@ -34,10 +33,10 @@ struct CategoryItem: View {
         .foregroundColor(.white)
         .shadow(radius: 10)
         .clipShape(RoundedRectangle(cornerRadius: 5.0))
-
     }
 }
 
 #Preview {
     CategoryItem(image: Image("sample"), color: ModelData().category[0].color, title: "팟캐스트")
+        .preferredColorScheme(.dark)
 }

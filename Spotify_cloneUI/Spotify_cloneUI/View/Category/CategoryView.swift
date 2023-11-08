@@ -59,4 +59,5 @@ struct CategoryView: View {
 
 #Preview {
     CategoryView()
+        .preferredColorScheme(.dark)
 }

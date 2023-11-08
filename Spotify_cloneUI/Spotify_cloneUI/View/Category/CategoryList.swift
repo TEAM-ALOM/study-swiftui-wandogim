@@ -36,4 +36,5 @@ struct CategoryList: View {
  
 #Preview {
     CategoryList(items: ModelData().category)
+        .preferredColorScheme(.dark)
 }

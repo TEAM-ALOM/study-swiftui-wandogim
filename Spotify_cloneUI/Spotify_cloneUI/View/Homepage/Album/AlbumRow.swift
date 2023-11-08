@@ -31,6 +31,7 @@ struct AlbumRow: View {
             }
         }
         .frame(height: 185)
+        .padding(.vertical)
         
     }
 }
@@ -40,6 +41,7 @@ struct albumRow_Previews: PreviewProvider{
     
     static var previews: some View{
         AlbumRow(rowName: "추천 인기 상승 앨범", items: albums)
+            .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
             
     }
 }

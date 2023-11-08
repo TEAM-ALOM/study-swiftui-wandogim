@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection: Tab = .search
+    @State private var selection: Tab = .home
     
     enum Tab{
         case home
@@ -17,7 +17,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selection){
-            CategoryView()
+            HomepageView()
                 .preferredColorScheme(.dark)
                 .tabItem {
                     Label("홈", systemImage: "house")

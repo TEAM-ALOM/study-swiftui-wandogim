@@ -1,51 +1,58 @@
 [
     {
       "id" : 0,
-      "name" : "sample",
-      "artist" : "sample",
-      "description" : "",
-      "imageName": "sample"
-    },
-    {
-      "id" : 0,
-      "name" : "sample",
-      "artist" : "sample",
-      "description" : "",
-      "imageName": "sample"
-    },
-    {
-      "id" : 0,
-      "name" : "sample",
-      "artist" : "sample",
+      "name" : "샘플 앨범",
+      "artist" : "sampleAlbum",
       "description" : "",
       "imageName": "sample"
     },
     {
       "id" : 1,
-      "name" : "sample",
-      "artist" : "sample",
+      "name" : "데일리 믹스 1",
+      "artist" : "dailyMix1",
       "description" : "",
-      "imageName": "sample"
+      "imageName": "dailyMix1"
     },
     {
       "id" : 2,
-      "name" : "sample",
+      "name" : "데일리 믹스 2",
       "artist" : "sample",
       "description" : "",
-      "imageName": "sample"
+      "imageName": "dailyMix2"
     },
     {
       "id" : 3,
-      "name" : "sample",
+      "name" : "데일리 믹스 3",
       "artist" : "sample",
       "description" : "",
-      "imageName": "sample"
+      "imageName": "dailyMix3"
     },
     {
       "id" : 4,
-      "name" : "sample",
+      "name" : "데일리 믹스 4",
       "artist" : "sample",
       "description" : "",
-      "imageName": "sample"
+      "imageName": "dailyMix4"
+    },
+    {
+      "id" : 5,
+      "name" : "데일리 믹스 5",
+      "artist" : "sample",
+      "description" : "",
+      "imageName": "dailyMix5"
+    },
+    {
+      "id" : 6,
+      "name" : "데일리 믹스 6",
+      "artist" : "sample",
+      "description" : "",
+      "imageName": "dailyMix6"
+    },
+    {
+      "id" : 7,
+      "name" : "팝 믹스",
+      "artist" : "sample",
+      "description" : "",
+      "imageName": "popMix"
     },
 ]

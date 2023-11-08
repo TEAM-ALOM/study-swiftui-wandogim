@@ -17,7 +17,7 @@ struct AlbumItem: View {
                 .resizable()
                 .frame(width: 155, height: 155)
                 
-            Text(album.artist)
+            Text(album.name)
                 .foregroundStyle(.primary)
                 .font(.caption)
         }
@@ -27,4 +27,5 @@ struct AlbumItem: View {
 
 #Preview {
     AlbumItem(album: ModelData().album[0])
+        .preferredColorScheme(.dark)
 }
