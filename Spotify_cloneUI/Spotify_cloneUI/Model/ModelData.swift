@@ -9,8 +9,8 @@ import Foundation
 
 final class ModelData: ObservableObject{
     @Published var album: [Album] = load("albumData.json")
+    @Published var category: [Category] = load("categoryData.json")
 }
-
  
 func load<T: Decodable>(_ filename: String) -> T  {
     let data: Data

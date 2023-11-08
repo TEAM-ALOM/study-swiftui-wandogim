@@ -19,6 +19,11 @@
 		7BF3B9EE2AF9FBA300DD937E /* AlbumRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3B9ED2AF9FBA300DD937E /* AlbumRow.swift */; };
 		7BF3B9F02AFA0CBE00DD937E /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3B9EF2AFA0CBE00DD937E /* CategoryItem.swift */; };
 		7BF3B9F22AFA279500DD937E /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3B9F12AFA279500DD937E /* CategoryList.swift */; };
+		7BF3B9F42AFA392400DD937E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3B9F32AFA392400DD937E /* Category.swift */; };
+		7BF3B9F62AFA3F5800DD937E /* categoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BF3B9F52AFA3F5800DD937E /* categoryData.json */; };
+		7BF3B9F82AFB9B6100DD937E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3B9F72AFB9B6100DD937E /* CircleImage.swift */; };
+		7BF3B9FC2AFBA29F00DD937E /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3B9FB2AFBA29F00DD937E /* CategoryView.swift */; };
+		7BF3BA002AFBC5A100DD937E /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3B9FF2AFBC5A100DD937E /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		7BF3B9ED2AF9FBA300DD937E /* AlbumRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRow.swift; sourceTree = "<group>"; };
 		7BF3B9EF2AFA0CBE00DD937E /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		7BF3B9F12AFA279500DD937E /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		7BF3B9F32AFA392400DD937E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		7BF3B9F52AFA3F5800DD937E /* categoryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categoryData.json; sourceTree = "<group>"; };
+		7BF3B9F72AFB9B6100DD937E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		7BF3B9FB2AFBA29F00DD937E /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		7BF3B9FF2AFBC5A100DD937E /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		7B268D9B2AEE706D007081FF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7BF3B9F52AFA3F5800DD937E /* categoryData.json */,
 				7BF3B9EB2AF9EDD000DD937E /* albumData.json */,
 			);
 			path = Resources;
@@ -62,6 +73,7 @@
 			children = (
 				7B268D992AEE7067007081FF /* Music.swift */,
 				7B268D9E2AEE7445007081FF /* Album.swift */,
+				7BF3B9F32AFA392400DD937E /* Category.swift */,
 				7B268DA02AEE744F007081FF /* Artist.swift */,
 				7BB93FD82AF09B83006751CE /* ModelData.swift */,
 			);
@@ -71,10 +83,9 @@
 		7B268D9D2AEE708F007081FF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7BF3B9ED2AF9FBA300DD937E /* AlbumRow.swift */,
-				7BA2BA682AEDF941004756A9 /* AlbumItem.swift */,
-				7BF3B9EF2AFA0CBE00DD937E /* CategoryItem.swift */,
-				7BF3B9F12AFA279500DD937E /* CategoryList.swift */,
+				7BF3B9FE2AFBB73E00DD937E /* Album */,
+				7BF3B9FD2AFBB72D00DD937E /* Category */,
+				7BF3BA022AFBD11400DD937E /* Helper */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				7BA2BA662AEDF941004756A9 /* Spotify_cloneUIApp.swift */,
+				7BF3BA012AFBC5B300DD937E /* Extension */,
 				7B268D9D2AEE708F007081FF /* View */,
 				7B268D9C2AEE7088007081FF /* Model */,
 				7B268D9B2AEE706D007081FF /* Resources */,
@@ -115,6 +127,41 @@
 				7BA2BA6E2AEDF942004756A9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BF3B9FD2AFBB72D00DD937E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7BF3B9FB2AFBA29F00DD937E /* CategoryView.swift */,
+				7BF3B9F12AFA279500DD937E /* CategoryList.swift */,
+				7BF3B9EF2AFA0CBE00DD937E /* CategoryItem.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7BF3B9FE2AFBB73E00DD937E /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				7BF3B9ED2AF9FBA300DD937E /* AlbumRow.swift */,
+				7BA2BA682AEDF941004756A9 /* AlbumItem.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		7BF3BA012AFBC5B300DD937E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7BF3B9FF2AFBC5A100DD937E /* ColorExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		7BF3BA022AFBD11400DD937E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7BF3B9F72AFB9B6100DD937E /* CircleImage.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BA2BA6F2AEDF942004756A9 /* Preview Assets.xcassets in Resources */,
+				7BF3B9F62AFA3F5800DD937E /* categoryData.json in Resources */,
 				7BA2BA6B2AEDF942004756A9 /* Assets.xcassets in Resources */,
 				7BF3B9EC2AF9EDD000DD937E /* albumData.json in Resources */,
 			);
@@ -189,14 +237,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B268D9A2AEE7067007081FF /* Music.swift in Sources */,
+				7BF3B9F42AFA392400DD937E /* Category.swift in Sources */,
+				7BF3B9FC2AFBA29F00DD937E /* CategoryView.swift in Sources */,
 				7BF3B9EE2AF9FBA300DD937E /* AlbumRow.swift in Sources */,
 				7BF3B9F02AFA0CBE00DD937E /* CategoryItem.swift in Sources */,
 				7BA2BA692AEDF941004756A9 /* AlbumItem.swift in Sources */,
 				7BA2BA672AEDF941004756A9 /* Spotify_cloneUIApp.swift in Sources */,
 				7B268DA12AEE744F007081FF /* Artist.swift in Sources */,
 				7B268D9F2AEE7445007081FF /* Album.swift in Sources */,
+				7BF3B9F82AFB9B6100DD937E /* CircleImage.swift in Sources */,
 				7BB93FD92AF09B83006751CE /* ModelData.swift in Sources */,
 				7BF3B9F22AFA279500DD937E /* CategoryList.swift in Sources */,
+				7BF3BA002AFBC5A100DD937E /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
