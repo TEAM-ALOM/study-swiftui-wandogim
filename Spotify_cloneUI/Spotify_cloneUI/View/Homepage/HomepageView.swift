@@ -20,6 +20,10 @@ struct HomepageView: View {
                         CircleImage(image: Image("profileImage")) // 라이브 이벤트
                             .frame(width: 35)
                             .padding(.horizontal)
+                        Text("와니님, 좋은 저녁입니다.")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .offset(x:-15 ,y:5)
                         
                     })
                     {
